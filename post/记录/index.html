@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <link href="/favicon.ico" rel="shortcut icon">
+    <title>记录 // 愿你永远年轻</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.57.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://tnjc999.github.io/css/main.min.f90f5edd436ec7b74ad05479a05705770306911f721193e7845948fb07fe1335.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="记录"/>
+<meta name="twitter:description" content="挂远程主机
+1.内网映射工具（蚂蚁穿透会自动更换端口，远程电脑优先选择路由侠和网络通）
+2.windows端口加密和扫描工具（暂无,已找到扫描工具）
+3.搭建共享网盘
+4.文件同步进行备份(使用FreeFileSync和OneDrive文件同步设置好,FreeFileSync监控同步有点问题，使用文件同步小助手工具进行文件同步）
+5.关于安全(需要打开服务器，设置入站规则禁用135，139，445，1433端口）
+6.设置bios自动加电自启
+7.在根目录文件夹下加网页作为二级域名。（在根目录下创建相应的名字把源码放进去就可以了）
+8.尝试安装manjaro系统（https://manjaro.top/post/manjaro-linux-181-ban-ben-xia-zai）
+9.文章封面设置随机显示10张图片 (可以在functions.php文件里，对thumb函数进行修改实现。方案：把$thumb = &lsquo;/usr/themes/echo/img/00.png&rsquo;;这句修改为$thumb = &lsquo;/usr/themes/echo/img/&rsquo;.rand(1,10).&lsquo;.png&rsquo;; 然后把1.png、2.png&hellip;10.png等这样命名的图片放到/usr/themes/echo/img/文件夹里即可)
+10.关于typecho更改域名博客图片失效 http://www.chanpindashi.com/2018/10/30/307.html
+11.设置typecho限制文章图片默认大小（宽度和高度) https://cloud.tencent.com/developer/article/1340502
+12.调整文章首页显示(使用Sticky插件，修改index.php解决 )
+13.linux端口映射
+14.搭建图床用github&#43;PicGo实现，但是更换设备无法同步上传图片记录
+15.学习前端 http://v.dxsbb.com/search.php?searchword=%E9%9F%A9%E9%A1%BA%E5%B9%B3 https://blog.51cto.com/hanshunping
+16.根据修改时间来修改后台文章顺序
+17.好看的密码解锁页面在index.js中修改 18.使用&lt;a href=&quot;https://api.iiwl.cc/lz/api.php&quot;&gt;aa.pdf&lt;/a&gt; 配合蓝奏云和缩短链接在文章里插入PDF，实现可阅读pdf不会跳出下载窗口。
+19.生成蓝奏云直链参考.(一个月左右失效)
+20.使用JWPlayer插件实现视频网页 (使用JWPlayer插件) 21.文章中插入bibi视频 (bibi视频解析插入文章)
+&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=71173888&amp;cid=123319701&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;  &lt;iframe id=sbrxp src=&quot;//player.bilibili.com/player.html?aid=71173888&amp;cid=123319701&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 640px; height: 430px; max-width: 60%&quot;&gt; &lt;/iframe&gt;  (插入视频,自动播放)
+ &lt;iframe src=&quot;http://pan.wumings.com/public/uploads/pan2/18/115183986-1-6.mp4&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;  22."/>
+
+    <meta property="og:title" content="记录" />
+<meta property="og:description" content="挂远程主机
+1.内网映射工具（蚂蚁穿透会自动更换端口，远程电脑优先选择路由侠和网络通）
+2.windows端口加密和扫描工具（暂无,已找到扫描工具）
+3.搭建共享网盘
+4.文件同步进行备份(使用FreeFileSync和OneDrive文件同步设置好,FreeFileSync监控同步有点问题，使用文件同步小助手工具进行文件同步）
+5.关于安全(需要打开服务器，设置入站规则禁用135，139，445，1433端口）
+6.设置bios自动加电自启
+7.在根目录文件夹下加网页作为二级域名。（在根目录下创建相应的名字把源码放进去就可以了）
+8.尝试安装manjaro系统（https://manjaro.top/post/manjaro-linux-181-ban-ben-xia-zai）
+9.文章封面设置随机显示10张图片 (可以在functions.php文件里，对thumb函数进行修改实现。方案：把$thumb = &lsquo;/usr/themes/echo/img/00.png&rsquo;;这句修改为$thumb = &lsquo;/usr/themes/echo/img/&rsquo;.rand(1,10).&lsquo;.png&rsquo;; 然后把1.png、2.png&hellip;10.png等这样命名的图片放到/usr/themes/echo/img/文件夹里即可)
+10.关于typecho更改域名博客图片失效 http://www.chanpindashi.com/2018/10/30/307.html
+11.设置typecho限制文章图片默认大小（宽度和高度) https://cloud.tencent.com/developer/article/1340502
+12.调整文章首页显示(使用Sticky插件，修改index.php解决 )
+13.linux端口映射
+14.搭建图床用github&#43;PicGo实现，但是更换设备无法同步上传图片记录
+15.学习前端 http://v.dxsbb.com/search.php?searchword=%E9%9F%A9%E9%A1%BA%E5%B9%B3 https://blog.51cto.com/hanshunping
+16.根据修改时间来修改后台文章顺序
+17.好看的密码解锁页面在index.js中修改 18.使用&lt;a href=&quot;https://api.iiwl.cc/lz/api.php&quot;&gt;aa.pdf&lt;/a&gt; 配合蓝奏云和缩短链接在文章里插入PDF，实现可阅读pdf不会跳出下载窗口。
+19.生成蓝奏云直链参考.(一个月左右失效)
+20.使用JWPlayer插件实现视频网页 (使用JWPlayer插件) 21.文章中插入bibi视频 (bibi视频解析插入文章)
+&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=71173888&amp;cid=123319701&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;  &lt;iframe id=sbrxp src=&quot;//player.bilibili.com/player.html?aid=71173888&amp;cid=123319701&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 640px; height: 430px; max-width: 60%&quot;&gt; &lt;/iframe&gt;  (插入视频,自动播放)
+ &lt;iframe src=&quot;http://pan.wumings.com/public/uploads/pan2/18/115183986-1-6.mp4&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;  22." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://tnjc999.github.io/post/%E8%AE%B0%E5%BD%95/" />
+<meta property="article:published_time" content="2019-11-23T15:31:44+08:00" />
+<meta property="article:modified_time" content="2019-11-23T15:31:44+08:00" />
+
+
+  </head>
+
+  <body>
+    <header class="app-header">
+      <a href="https://tnjc999.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>愿你永远年轻</h1>
+      <p>艺术品都是源于无穷的寂寞，没有比批评更难望其边际的了。只有爱能够理解它们，把住它们，认识它们的价值。 --川端康成</p>
+            <div class="app-header-social">
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">记录</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Nov 23, 2019
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div></div>
+    </header>
+    <div class="post-content">
+      
+
+<p><img src="https://s2.ax1x.com/2019/12/16/Q4K6HJ.jpg"  width = 70% height = 70% /></p>
+
+<p>挂远程主机</p>
+
+<p>1.内网映射工具（蚂蚁穿透会自动更换端口，远程电脑优先选择路由侠和网络通）</p>
+
+<p>2.windows端口加密和扫描工具（暂无,已找到扫描工具）</p>
+
+<p>3.搭建共享网盘</p>
+
+<p>4.文件同步进行备份(使用FreeFileSync和OneDrive文件同步设置好,FreeFileSync监控同步有点问题，使用文件同步小助手工具进行文件同步）</p>
+
+<p><img src="https://s2.ax1x.com/2019/12/16/Q4KqUA.jpg"  width = 30% height = 30% /><br />
+5.关于安全(需要打开服务器，设置入站规则禁用135，139，445，1433端口）</p>
+
+<p><a href="https://zhidao.baidu.com/question/423801537.html">6.<code>设置bios自动加电自启</code></a></p>
+
+<p>7.在根目录文件夹下加网页作为二级域名。（在根目录下创建相应的名字把源码放进去就可以了）</p>
+
+<p>8.尝试安装manjaro系统（<a href="https://manjaro.top/post/manjaro-linux-181-ban-ben-xia-zai）">https://manjaro.top/post/manjaro-linux-181-ban-ben-xia-zai）</a></p>
+
+<p>9.文章封面设置随机显示10张图片 (可以在functions.php文件里，对thumb函数进行修改实现。方案：把$thumb = &lsquo;/usr/themes/echo/img/00.png&rsquo;;这句修改为$thumb = &lsquo;/usr/themes/echo/img/&rsquo;.rand(1,10).&lsquo;.png&rsquo;;
+然后把1.png、2.png&hellip;10.png等这样命名的图片放到/usr/themes/echo/img/文件夹里即可)</p>
+
+<p><a href="https://www.moerats.com/archives/337">10.<code>关于typecho更改域名博客图片失效</code></a>
+<a href="http://www.chanpindashi.com/2018/10/30/307.html">http://www.chanpindashi.com/2018/10/30/307.html</a></p>
+
+<p>11.<a href="https://www.eyuyun.com/83.html"><code>设置typecho限制文章图片默认大小（宽度和高度)</code></a>
+<a href="https://cloud.tencent.com/developer/article/1340502">https://cloud.tencent.com/developer/article/1340502</a></p>
+
+<p>12.调整文章首页显示(使用Sticky插件，修改index.php解决 )</p>
+
+<p>13.<a href="https://www.moerats.com/archives/991/"><code>linux端口映射</code></a></p>
+
+<p>14.<a href="https://www.jianshu.com/p/d51258ef5484"><code>搭建图床</code></a>用github+PicGo实现，但是更换设备无法同步上传图片记录</p>
+
+<p>15.学习前端 <a href="http://v.dxsbb.com/search.php?searchword=%E9%9F%A9%E9%A1%BA%E5%B9%B3">http://v.dxsbb.com/search.php?searchword=%E9%9F%A9%E9%A1%BA%E5%B9%B3</a>
+<a href="https://blog.51cto.com/hanshunping">https://blog.51cto.com/hanshunping</a></p>
+
+<p>16.<a href="https://www.jdeal.cn/archives/wzpx.html"><code>根据修改时间来修改后台文章顺序</code></a></p>
+
+<p>17.好看的密码解锁页面在index.js中修改
+<img src="https://qn.jdeal.cn/2019/10/254559564.jpg"  width = 30% height = 30% /></p>
+
+<p>18.使用<code>&lt;a href=&quot;https://api.iiwl.cc/lz/api.php&quot;&gt;aa.pdf&lt;/a&gt;</code> 配合蓝奏云和缩短链接在文章里插入PDF，实现可阅读pdf不会跳出下载窗口。</p>
+
+<p>19.生成<a href="https://api.iiwl.cc/lz/api.php"><code>蓝奏云</code></a>直链参考.(一个月左右失效)</p>
+
+<p>20.使用<a href="http://www.yzmb.me/archives/net/jwplayer-for-typecho"><code>JWPlayer</code></a>插件实现视频网页
+(使用JWPlayer插件)
+<img src="https://s2.ax1x.com/2019/12/16/Q4MSKS.jpg" alt="尾部加竖线" />
+21.文章中插入bibi视频
+(bibi视频解析插入文章)</p>
+
+<pre><code>&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=71173888&amp;cid=123319701&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;
+</code></pre>
+
+<pre><code>&lt;iframe id=sbrxp src=&quot;//player.bilibili.com/player.html?aid=71173888&amp;cid=123319701&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 640px; height: 430px; max-width: 60%&quot;&gt; &lt;/iframe&gt;
+</code></pre>
+
+<p>(插入视频,自动播放)</p>
+
+<pre><code> &lt;iframe src=&quot;http://pan.wumings.com/public/uploads/pan2/18/115183986-1-6.mp4&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;
+</code></pre>
+
+<p>22.做tyecho首页的html静态，加快网页的打开速度。</p>
+
+<p>23.找了html5网页，music，标签，跳跃小游戏。</p>
+
+<p>24.测试在Ubuntu下连接frp客户端移动网页至Ubuntu<code>https://www.jianshu.com/p/b241270743d2</code>(宝塔站点不能访问二级目录，要直接访问导航页，移动至Ubuntu网易云插件失效)</p>
+
+<p>25.静态网页HTML调用网易云音乐歌曲
+第一种
+<code>&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=100% height=86 src=&quot;https://music.163.com/outchain/player?type=2&amp;id=27571483&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;</code>
+第二种
+<code>&lt;iframe frameborder=&quot;0&quot; border=&quot;1&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=333 height=77 src=&quot;//music.163.com/outchain/player?type=2&amp;id=33166539&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;</code></p>
+
+<p>26.搭建Cloudreve网盘系统，初始化<a href="http://192.168.1.3/CloudreveInstaller/">http://192.168.1.3/CloudreveInstaller/</a></p>
+
+<p>27.网页封装安卓app，用Fusion APP用来实现<a href="http://free.freefrp.cn:8081/tupian/tnjc.apk"><code>海潮</code></a>，对于某些图片开启启动图本地上传失败，直接在fusionapp安装路径的根目录下直接替换图片，没有X5内核播放视频会闪退。
+使用HBuilder来打包apk文件，没有x5内核可以播放视频，但是按返回键直接退出。<a href="http://free.freefrp.cn:8081/tupian/tnjc_1.0.apk"><code>海潮-0.1</code></a></p>
+
+<p>这是最终版(不能加载视频)<a href="http://free.freefrp.cn:8081/tupian/tnjc_2.0.apk"><code>海潮-0.2</code></a></p>
+
+<p>28.关于站点的搜索栏失效的原因:是站点的首页静态化导致,删除index.html可正常使用,需要在功能和速度上做选择</p>
+
+<p>29.搭建<a href="http://free.freefrp.cn:8081/tupian/frp-ceshih.zip"><code>frp</code></a>进行测试，结合cpolar和frp实现frp中继</p>
+
+<p>30.尝试搭建PPTP VPN 需要支持GRE协议，frp实现不了</p>
+
+<p>31.<a href="http://free.freefrp.cn:8081/tupian/tnjc1.1.exe">实现exe打开主页</a>,使用Bat To Exe Converter生成bat转exe
+<code>start http://127.0.0.1</code></p>
+
+<p>32.安装<a href="https://github.com/pyload/pyload"><code>pyLoad</code></a>实现远程下载（下载的文件不是原文件，有时候用压缩包可以解压出来有时候不行，尝试使用其他web远程下载实现功能）</p>
+
+<p>33.配置htaccess实现只允许ip和ip段访问</p>
+
+<p>34.<a href="http://www.360doc.com/content/18/0721/15/14892403_772149775.shtml"><code>实现.htaccess301重定向跳转的八种方法</code></a></p>
+
+<p>35.<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1486156376&site=qq&menu=yes"><code>实现点击qq联系我</code></a></p>
+
+<pre><code>&lt;a target=&quot;_blank&quot; href=&quot;http://wpa.qq.com/msgrd?v=3&amp;uin=1486156376&amp;site=qq&amp;menu=yes&quot;&gt;`qq-点击联系我`&lt;/a&gt;
+</code></pre>
+
+<p>36.在腾讯的cloud studio部署tyecho博客，上传文件是缓存，重新部署链接会掉，只有写在数据库才不会，邮件回复测试失败。</p>
+
+<h2 id="目标">目标</h2>
+
+<h3 id="原理">原理</h3>
+
+<p>Markdown 中控制图片的大小 对齐方式  调整分辨率 竖屏320x240</p>
+
+<p><a href="https://my.zerotier.com">zerotier内网穿透</a></p>
+
+<p><img src="https://s2.ax1x.com/2019/12/16/Q4Mub4.jpg"  width = 50% height = 50% /></p>
+
+<pre><code>使用代码块，字体会比较小点
+</code></pre>
+
+<p>纽约大都会艺术博物馆<a href="https://www.metmuseum.org/art/collection">https://www.metmuseum.org/art/collection</a></p>
+
+<p><a href="https://smartmockups.com/category/apparel/all">https://smartmockups.com/category/apparel/all</a></p>
+
+<p>链接加入 <a href="https://www.jdeal.cn/">https://www.jdeal.cn/</a></p>
+
+<p>第一个方法是登录自己用户时才能开机启动的启动文件夹。这是我自己用户的启动文件夹的地址</p>
+
+<pre><code>C:\Users\ray\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+</code></pre>
+
+<p>（注意\ray是我自己用户的用户名，大家复制粘贴时要改为你们自己的用户名），大家复制这个地址到文件夹的地址栏里再按回车键就能进去启动文件夹</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
+
