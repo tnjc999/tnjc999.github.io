@@ -6,51 +6,57 @@
     <description>Recent content in Posts on 愿你永远年轻</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Dec 2019 16:19:11 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 30 Apr 2022 20:19:11 +0800</lastBuildDate>
     
 	<atom:link href="https://tnjc999.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>图片</title>
-      <link>https://tnjc999.github.io/post/%E5%9B%BE%E7%89%87/</link>
-      <pubDate>Tue, 03 Dec 2019 16:19:11 +0800</pubDate>
+      <title>一些优秀的软件和项目</title>
+      <link>https://tnjc999.github.io/post/%E4%B8%80%E4%BA%9B%E4%BC%98%E7%A7%80%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%92%8C%E9%A1%B9%E7%9B%AE/</link>
+      <pubDate>Sat, 30 Apr 2022 20:19:11 +0800</pubDate>
       
-      <guid>https://tnjc999.github.io/post/%E5%9B%BE%E7%89%87/</guid>
-      <description>张艾嘉
-2019各省个人所得税
-黑泽明
-学生托乐思的迷惘</description>
+      <guid>https://tnjc999.github.io/post/%E4%B8%80%E4%BA%9B%E4%BC%98%E7%A7%80%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%92%8C%E9%A1%B9%E7%9B%AE/</guid>
+      <description>Windows
+1.免费桌面版脑图-本地化
+2.效率神器:QuickLook-空格键快速查看文件内容
+3.一条命令端对端传输-croc
+3.mobi电子书优秀阅读软件
+4.查找,删除流氓进程利器-星霜系统服务管理器
+5.电脑定时内存清理-Mem Reduct
+6.恢复桌面图标布局-ReIcon
+7.不到1M的鼠标全局手势
+8.Runcat一款有趣的系统资源监控工具,这里是介绍
+9.开源实时硬件资源监控器
+Linux
+1.web 状态监控服务
+2.随机唐诗宋词
+sudo apt-get install fortune-zh
+3.终端黑客帝国屏保
+sudo apt install cmatrix
+4.终端小火车动效
+sudo apt install sl
+5.在终端显示系统信息
+sudo apt install screenfetch
+6.ali压测实时负载图
+Android
+1.via浏览器-真丝般顺滑
+2.博看书苑-免费正版电子图书、期刊、报纸
+github项目
+1.中文诗歌web版本
+2.Windows通知栏背单词的软件
+3.程序员考公指南
+4.在线Linux命令搜索
+5.面向开发人员的屏幕共享</description>
     </item>
     
     <item>
-      <title>记录</title>
-      <link>https://tnjc999.github.io/post/%E8%AE%B0%E5%BD%95/</link>
-      <pubDate>Sat, 23 Nov 2019 15:31:44 +0800</pubDate>
+      <title>图片</title>
+      <link>https://tnjc999.github.io/post/%E5%9B%BE%E7%89%87/</link>
+      <pubDate>Sat, 30 Apr 2022 20:11:11 +0800</pubDate>
       
-      <guid>https://tnjc999.github.io/post/%E8%AE%B0%E5%BD%95/</guid>
-      <description>挂远程主机
-1.内网映射工具（蚂蚁穿透会自动更换端口，远程电脑优先选择路由侠和网络通）
-2.windows端口加密和扫描工具（暂无,已找到扫描工具）
-3.搭建共享网盘
-4.文件同步进行备份(使用FreeFileSync和OneDrive文件同步设置好,FreeFileSync监控同步有点问题，使用文件同步小助手工具进行文件同步）
-5.关于安全(需要打开服务器，设置入站规则禁用135，139，445，1433端口）
-6.设置bios自动加电自启
-7.在根目录文件夹下加网页作为二级域名。（在根目录下创建相应的名字把源码放进去就可以了）
-8.尝试安装manjaro系统（https://manjaro.top/post/manjaro-linux-181-ban-ben-xia-zai）
-9.文章封面设置随机显示10张图片 (可以在functions.php文件里，对thumb函数进行修改实现。方案：把$thumb = &amp;lsquo;/usr/themes/echo/img/00.png&amp;rsquo;;这句修改为$thumb = &amp;lsquo;/usr/themes/echo/img/&amp;rsquo;.rand(1,10).&amp;lsquo;.png&amp;rsquo;; 然后把1.png、2.png&amp;hellip;10.png等这样命名的图片放到/usr/themes/echo/img/文件夹里即可)
-10.关于typecho更改域名博客图片失效 http://www.chanpindashi.com/2018/10/30/307.html
-11.设置typecho限制文章图片默认大小（宽度和高度) https://cloud.tencent.com/developer/article/1340502
-12.调整文章首页显示(使用Sticky插件，修改index.php解决 )
-13.linux端口映射
-14.搭建图床用github+PicGo实现，但是更换设备无法同步上传图片记录
-15.学习前端 http://v.dxsbb.com/search.php?searchword=%E9%9F%A9%E9%A1%BA%E5%B9%B3 https://blog.51cto.com/hanshunping
-16.根据修改时间来修改后台文章顺序
-17.好看的密码解锁页面在index.js中修改 18.使用&amp;lt;a href=&amp;quot;https://api.iiwl.cc/lz/api.php&amp;quot;&amp;gt;aa.pdf&amp;lt;/a&amp;gt; 配合蓝奏云和缩短链接在文章里插入PDF，实现可阅读pdf不会跳出下载窗口。
-19.生成蓝奏云直链参考.(一个月左右失效)
-20.使用JWPlayer插件实现视频网页 (使用JWPlayer插件) 21.文章中插入bibi视频 (bibi视频解析插入文章)
-&amp;lt;iframe src=&amp;quot;//player.bilibili.com/player.html?aid=71173888&amp;amp;cid=123319701&amp;amp;page=1&amp;quot; scrolling=&amp;quot;no&amp;quot; border=&amp;quot;0&amp;quot; frameborder=&amp;quot;no&amp;quot; framespacing=&amp;quot;0&amp;quot; allowfullscreen=&amp;quot;true&amp;quot;&amp;gt; &amp;lt;/iframe&amp;gt;  &amp;lt;iframe id=sbrxp src=&amp;quot;//player.bilibili.com/player.html?aid=71173888&amp;amp;cid=123319701&amp;amp;page=1&amp;quot; scrolling=&amp;quot;no&amp;quot; border=&amp;quot;0&amp;quot; frameborder=&amp;quot;no&amp;quot; framespacing=&amp;quot;0&amp;quot; allowfullscreen=&amp;quot;true&amp;quot; style=&amp;quot;width: 640px; height: 430px; max-width: 60%&amp;quot;&amp;gt; &amp;lt;/iframe&amp;gt;  (插入视频,自动播放)
- &amp;lt;iframe src=&amp;quot;http://pan.wumings.com/public/uploads/pan2/18/115183986-1-6.mp4&amp;quot; scrolling=&amp;quot;no&amp;quot; border=&amp;quot;0&amp;quot; frameborder=&amp;quot;no&amp;quot; framespacing=&amp;quot;0&amp;quot; allowfullscreen=&amp;quot;true&amp;quot;&amp;gt; &amp;lt;/iframe&amp;gt;  22.</description>
+      <guid>https://tnjc999.github.io/post/%E5%9B%BE%E7%89%87/</guid>
+      <description></description>
     </item>
     
   </channel>
